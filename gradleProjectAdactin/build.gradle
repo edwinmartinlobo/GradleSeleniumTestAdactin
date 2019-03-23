@@ -22,7 +22,13 @@ compile group: 'org.testng', name: 'testng', version: '6.13'
     
     
 }
+test {
+useTestNG() {
 
+
+}
+
+}
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use jcenter for resolving your dependencies.
